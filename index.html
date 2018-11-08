@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function login(){
+                console.log("login")
+                // window.preventDefault()
+                window.location="dashboard.html"
+            }
+        </script>
+    </head>
+    <body id="body">
+        <form>
+            <div id="login_fields">
+                <img id="logo" src='images/b_logo.png' alt="Barclay's Logo" title="Barclay's Logo" />
+                <h1>Barclay's Fantasy League</h1>
+                <h2>MyBFL LOGIN</h2>
+                <div>
+                    <input type="text" placeholder="Email Address"/><br/>
+                    <input type="text" placeholder="Password"/>
+                    <div id="login_button">
+                        <input type="button" id="loginbutton" onclick="login()" value="Login" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="copyright">Copyright &copy; DTM Sports</p>
+            </div>
+        </form>
+    </body>
+</html>

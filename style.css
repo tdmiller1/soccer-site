@@ -1,0 +1,283 @@
+#body{
+	background-color: rgb(62,0,60);
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	z-index: 30;
+}
+
+#login_fields {
+	display: block; 
+	justify-content: center;
+	text-align: center;
+	padding: 60px 20px 20px;
+	border-color: black;
+	width: 100%;
+	max-width: 400px;
+	background-color: white;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+h1 {
+	font-family: 'Poppins';
+	font-style: normal;
+}
+
+h2 {
+	color: rgb(62,0,60);
+	font-family: 'Poppins';
+	font-style: normal;
+}
+
+#login_button {
+	display: block; 
+	justify-content: center;
+}
+
+input {
+	padding: .5em;
+	font-size: 1em;
+}
+
+#loginbutton {
+	position: center;
+	text-align: center;
+	font-size: 1.25em;
+	background-color: rgb(62,0,60);
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+#copyright {
+	color: white;
+	position: absolute;
+	bottom:0px;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	padding-top: 1em;
+	font-family: 'Poppins';
+	font-style: italic;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#clubsites{
+    text-align: right;
+    background-color:white;
+    color:green;
+    height:60px;
+}
+#mainHeader{
+    background-color:#38003c;
+    color:#ffffff;
+    height:60px;
+}
+#paddingAuto{
+    padding:5px;width:auto;
+}
+#padding17{
+    padding:17px 0px;
+}
+#signin{
+    text-align: right;
+    float: right;
+}
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
+}
+#mainHeader div{
+    padding:18px;
+}
+#stats{
+    float:left;
+}
+.button:hover{
+    border-bottom: 4px solid red;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+    height:60px;
+    cursor: pointer;
+}
+body{
+    font-family: Poppins;
+    overflow-y:scroll;
+}
+.crest{
+    height:25px;
+    padding:10px 10px
+}
+.crest:hover{
+    height:30px;
+}
+#mobileLogo{
+    display:none;
+}
+.header{
+    position: fixed;
+    /* height:120px;
+    top:0;
+    left:0;
+    right:0; */
+    width:100%;
+}
+.content{
+    /* position:absolute;top:120px;left:0px;right:0px;bottom:0px; */
+    z-index: -2;
+}
+/* Mobile view */
+@media only screen and (max-width: 890px){
+    .content{
+        /* position:absolute;top:60px;left:0px;right:0px;bottom:0px;z-index: -2; */
+    }
+    #clubsites{
+        display:none;
+    }
+    #mobileLogo{
+        display:inline;
+        float:left;
+    }
+    body{
+        background-color:#eaeaea;
+    }
+}
+.hasSideNav{
+    width:300px;
+    background-color:#38003c;
+    float:left;
+    height:100%;
+}
+
+.sideNavMobile{
+    display:none;
+}
+
+.sideNavButton{
+    color:white;
+    padding:10px;
+}
+.sideNavButton:hover{
+    cursor: pointer;
+    color:yellow;
+}
+
+.floatRight{
+    float:right;
+}
+
+.chevron{
+    padding:3px 5px;;
+}
+
+#height100{
+    height:100%;
+}
+
+#height35{
+    height:35px;
+}
+
+.hide{
+    display:none;
+}
+
+#shareButton{
+    padding:13px;
+    background-color:white;
+    border:none;
+    width:80px;
+    border-radius: 5px;
+}
+
+.selected{
+    background-color:yellow;
+    color:#38003c;
+}
+
+.card{
+    background-color:gray;
+    color:white;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#title{
+    height:100px;background-color: yellow;
+}
+.padding10{
+    padding:10px;
+}
+
+#padding25{
+    padding:25px;
+}
+.item{
+    width:100%;
+}
+
+.container>div{
+    flex:0 50%;
+    box-sizing: border-box;
+}
+
+.contentSideNav{
+    position:fixed;
+    top:220px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index: -2;
+}
+
+
+
+@media only screen and (max-width: 890px){
+    .hasSideNav{
+        display:none;
+    }
+    .sideNavMobile{
+        display:block;
+        background-color:#38003c;
+        margin:10px;
+        padding:10px;
+        color:white;
+    }
+}
+
+.floatRight{
+    float:right;
+}
+
+.floatLeft{
+    float:left;
+}
+
+body{
+    height:100%;
+}
+
+.content-style{
+    margin-left:300px;
+}
