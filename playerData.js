@@ -106,3 +106,22 @@ teamName = [
         ]
     }
 ]
+
+users = [
+    {
+        email: "drjames@bsu.edu",
+        password: "Paz"
+    },
+    {
+        email: "manoonan@bsu.edu",
+        password: "Noonja"
+    },
+    {
+        email: "tdmiller7@bsu.edu",
+        password: "Vermont"
+    },
+    {
+        email: "mjdryer@bsu.edu",
+        password: "Pepper"
+    }
+]
