@@ -125,3 +125,25 @@ users = [
         password: "Pepper"
     }
 ]
+
+function search(name){
+    possible = []
+    for(var i = 0; i < teamName.length; i++){
+        for(var j =0; j < teamName[i].players.length;j++){
+            playername = teamName[i].players[j].name
+            if(playername.toLowerCase().includes(name)){
+                possible.push(playername)
+            } 
+        }
+    }
+
+    if(possible.length==1){
+        window.location = "playerStats.php?player="+possible[0]
+    }else{
+        string = "Possible Matches\n\n\n"
+        for(var i = 0; i < possible.length;i++){
+            string = string + possible[i] + "\n"
+        }
+        alert(string)
+    }
+}

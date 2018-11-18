@@ -252,6 +252,15 @@ body{
 }
 
 
+table{
+    margin:auto;
+}
+table th, td{
+    padding:10px;
+}
+table,td,tr {
+    border:1px solid black;
+}
 
 
 .floatRight{
@@ -268,6 +277,7 @@ body{
 
 .content-style{
     margin-left:300px;
+
 }
 
 tr:hover{
