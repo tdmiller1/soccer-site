@@ -79,7 +79,14 @@
         
             <!--    CONTENT BELOW    -->
             <div class="content-style">
-                
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Team</th>
+                    <th>Stats</th>
+                </tr>
+                <?php include 'components/dashboard.php' ?>
+            </table>
             </div>
     </body>
 </html>
