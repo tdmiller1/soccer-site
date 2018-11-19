@@ -1,8 +1,13 @@
 <?php 
+
 $teams = array();
 
 $teams[0] = array(
     "teamName" => "Manchester City",
+    "matchesPlays" => 822,
+    "wins" => 369,
+    "losses" => 257,
+    "goals" => 1315,
     "players" => array(
         array(
                 "name" => "Claudio Bravo",
@@ -91,6 +96,10 @@ $teams[0] = array(
              ));
 $teams[1] = array(
     "teamName"=>"Liverpool",
+    "matchesPlays" => 1012,
+    "wins" => 508,
+    "losses" => 246,
+    "goals" => 1708,
     "players"=> array(
             array(
                 "name"=>"Simon Mignolet",
@@ -119,6 +128,48 @@ $teams[1] = array(
                 "position"=>"Forward",
                 "club"=>"Liverpool",
                 "image"=>"p92217"
-            )
+            ),
+            array(
+               "name"=>"Nathaniel Clyne",
+               "nationality"=>"England",
+               "position"=>"Defender",
+               "club"=>"Liverpool",
+               "image"=>"p57328"
+           ),
+            array(
+               "name"=>"Georginio Wijnaldum",
+               "nationality"=>"Netherlands",
+               "position"=>"Midfielder",
+               "club"=>"Liverpool",
+               "image"=>"p41733"
+           ),
+            array(
+               "name"=>"Roberto Firmino",
+               "nationality"=>"Brazil",
+               "position"=>"Forward",
+               "club"=>"Liverpool",
+               "image"=>"p92217"
+           ),
+           array(
+              "name"=>"Nathaniel Clyne",
+              "nationality"=>"England",
+              "position"=>"Defender",
+              "club"=>"Liverpool",
+              "image"=>"p57328"
+          ),
+           array(
+              "name"=>"Georginio Wijnaldum",
+              "nationality"=>"Netherlands",
+              "position"=>"Midfielder",
+              "club"=>"Liverpool",
+              "image"=>"p41733"
+          ),
+           array(
+              "name"=>"Roberto Firmino",
+              "nationality"=>"Brazil",
+              "position"=>"Forward",
+              "club"=>"Liverpool",
+              "image"=>"p92217"
+          )
         ));
 ?>

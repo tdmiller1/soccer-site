@@ -192,6 +192,7 @@ body{
     height:100%;
 }
 
+
 #height35{
     height:35px;
 }
@@ -221,6 +222,11 @@ body{
 .container{
     display:flex;
     flex-wrap:wrap;
+}
+
+#searchBtn{
+    margin-top:28.5px;
+    margin-right:30px;
 }
 
 #title{
