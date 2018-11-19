@@ -1,10 +1,10 @@
 .wrap {
-    width: 100%;
-    margin: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     text-align: center;
-    display:flex;
-
+    display: -moz-inline-block;
 
 }
 
@@ -36,7 +36,7 @@ img {
 }
 
 body {
-    background-color: #38003c;
+    background-image: url("./images/cu_background.jpg");
 }
 
 h1 {
@@ -54,13 +54,9 @@ h1 {
 
 .contact {
     text-align: center;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     padding: 10px;
-    -webkit-background-origin:border;
-    background-image: url("./images/sfield.jpg");
-    background-size: contain;
-
 }
 
