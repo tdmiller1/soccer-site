@@ -19,7 +19,7 @@ $teams[0] = array(
                 "name"=> "Kyle Walker",
                 "nationality"=>"England",
                 "position"=>"Defender",
-                "club","Manchester City",
+                "club"=>"Manchester City",
                 "image"=>"p58621"
             ),
             array(

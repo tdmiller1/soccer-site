@@ -132,22 +132,31 @@ body{
 #mobileLogo{
     display:none;
 }
+
+
 .header{
+    position:fixed;
+    top:220px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    width:300px;
+}
+/* .header{
     position: fixed;
-    /* height:120px;
+    height:120px;
     top:0;
     left:0;
-    right:0; */
+    right:0;
     width:100%;
-}
+} */
 .content{
     /* position:absolute;top:120px;left:0px;right:0px;bottom:0px; */
-    /* z-index: -2; */
+    z-index: -2;
 }
-/* Mobile view */
 @media only screen and (max-width: 890px){
     .content{
-        /* position:absolute;top:60px;left:0px;right:0px;bottom:0px;z-index: -2; */
+        z-index: -2; 
     }
     #clubsites{
         display:none;
@@ -283,9 +292,23 @@ body{
 
 .content-style{
     margin-left:300px;
+    margin-top:220px;
 
 }
 
 tr:hover{
     background-color:gainsboro;
+}
+
+.lion_header{
+
+    position: fixed;
+    top:0px;
+    width:100%;
+}
+
+.stats_centre{
+    position: fixed;
+    top:120px;
+    width:100%;
 }
