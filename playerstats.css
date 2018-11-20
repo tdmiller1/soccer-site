@@ -1,0 +1,13 @@
+#card{
+    text-align:center
+}
+
+#playerImage{
+    height:200px;
+}
+
+#infoCard{
+    margin-top:-21px;
+    background-color:gray;
+    color:white;
+}

@@ -1,4 +1,5 @@
 <?php include 'header.html'?>
+<link rel="stylesheet" type="text/css" href="table.css">
 <table>
             <tr>
                 <th style="width:150px">Name</th>

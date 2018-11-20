@@ -14,7 +14,7 @@ function playerCard($name, $team, $stat){
     echo 
     "<tr>
         <td>
-            <a style='color:black' href='playerStats.php?player=$name'>$name</a>
+            <a class='white' href='playerStats.php?player=$name'>$name</a>
         </td>
         <td>$team</td>
         <td>$stat</td>

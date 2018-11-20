@@ -172,4 +172,82 @@ $teams[1] = array(
               "image"=>"p92217"
           )
         ));
+
+$teams[2] = array(
+    "teamName" => "Tottenham Hotspur",
+    "matchesPlays" => 1012,
+    "wins" => 432,
+    "losses" => 325,
+    "goals" => 1500,
+    "players" => array(
+        array(
+                "name" => "Hugo Lloris",
+                "nationality" => "France",
+                "position" => "Goalkeeper",
+                "club" => "Tottenham Hotspur",
+                "image" => "p37915")
+        ));
+
+$teams[3] = array(
+    "teamName" => "Chelsea",
+    "matchesPlays" => 1012,
+    "wins" => 545,
+    "losses" => 215,
+    "goals" => 1734,
+    "players" => array(
+        array(
+                "name" => "Willy Caballero",
+                "nationality" => "Argentina",
+                "position" => "Goalkeeper",
+                "club" => "Chelsea",
+                "image" => "p20310")
+        ));
+        
+
+$teams[4] = array(
+    "teamName" => "Arsenal",
+    "matchesPlays" => 1012,
+    "wins" => 551,
+    "losses" => 205,
+    "goals" => 1798,
+    "players" => array(
+        array(
+                "name" => "Patr Cech",
+                "nationality" => "Czech Republic",
+                "position" => "Goalkeeper",
+                "club" => "Arsenal",
+                "image" => "p11334")
+        ));
+
+        
+$teams[5] = array(
+    "teamName" => "AFC Bournemouth",
+    "matchesPlays" => 126,
+    "wins" => 40,
+    "losses" => 54,
+    "goals" => 166,
+    "players" => array(
+        array(
+                "name" => "Artur Boruc",
+                "nationality" => "Poland",
+                "position" => "Goalkeeper",
+                "club" => "AFC Bournemouth",
+                "image" => "p18726")
+        ));
+
+        
+$teams[6] = array(
+    "teamName" => "Manchester United",
+    "matchesPlays" => 1012,
+    "wins" => 635,
+    "losses" => 160,
+    "goals" => 1944,
+    "players" => array(
+        array(
+                "name" => "David De Gea",
+                "nationality" => "Spain",
+                "position" => "Goalkeeper",
+                "club" => "Manchester United",
+                "image" => "p51940")
+        ));
 ?>

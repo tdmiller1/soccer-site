@@ -1,5 +1,5 @@
 <?php include 'header.html'?>
-
+<link rel="stylesheet" type="text/css" href="table.css">
 <div class='content-style'>
         <table>
             <tr>

@@ -1,0 +1,14 @@
+table{
+    padding:40px;
+    background-color: rgb(139,76,133);
+    color:white;
+}
+
+td{
+   border-radius: 5px;
+}
+
+
+tr:hover{
+    background-color:rgb(29, 88, 76);
+}

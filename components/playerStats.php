@@ -27,13 +27,13 @@ if(empty($_GET)){
         $club = $player['club'];
         $position = $player['position'];
         echo "
-        <div style='text-align:center'>
-            <img style='height:200px;' src='images/$image.png'>
-            <div style='margin-top:-21px;background-color:gray;'>
+        <div id='card'>
+            <img id='playerImage' src='images/$image.png'>
+            <div id='infoCard'>
                 <h1>$name</h1>
                 <h1>$club</h1>
                 <h3>$position</h3>
-                <h4>$nationality</h4>
+                <h3>$nationality</h3>
             </div>
         </div>";
 }
