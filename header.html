@@ -38,10 +38,11 @@
                         Stats
                     </div>
                 </a>
-                <a href='index.html'>
+                <a href='index.php'>
                     <div class='button floatRight' id='signin'>
                         <script>
-                            var userName = localStorage['username']
+                            var userName = window.location.href.valueOf('username')
+                            userName = userName.split('=')[1]
                             document.write('Logout, ' + userName)
                         </script>
                     </div>
