@@ -41,9 +41,8 @@
                 <a href='index.php'>
                     <div class='button floatRight' id='signin'>
                         <script>
-                            var userName = window.location.href.valueOf('username')
-                            userName = userName.split('=')[1]
-                            document.write('Logout, ' + userName)
+                            document.write('Logout, ' + localStorage.getItem('username'))
+                            
                         </script>
                     </div>
                 </a>

@@ -37,7 +37,12 @@ if(isset($_GET['email'])){
 
     }
     else if($_GET['password'] ==  $R[0]["Password"]){
-        header("LOCATION: dashboard.php?username=$username");
+        echo "<script>
+            
+            localStorage.setItem('username','$username')
+            window.location = 'dashboard.php';
+        </script>";
+        // header("LOCATION: dashboard.php?username=$username");
     }
 
 
@@ -63,6 +68,13 @@ if(isset($_GET['email'])){
                         <input type="submit" id="loginbutton"  value="Login" />
                         <!-- </a> -->
                     </div>
+
+                <div id="ca_button">
+                    <input type="button" id="cabutton"  value="Create Account" onclick="location.href='http://localhost/soccer-site/createAccount.php'"/>
+                </div>
+
+
+
                 </div>
             </div>
             <div>
