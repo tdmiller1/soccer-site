@@ -1,4 +1,4 @@
-<?php include 'header.html'?>
+<?php include 'header.php'?>
 <link rel="stylesheet" type="text/css" href="table.css">
 <table>
             <tr>
