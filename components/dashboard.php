@@ -21,7 +21,7 @@ $pdo = new PDO($connString,$user,$pass);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
-$statement = $pdo->prepare('SELECT Name, Number, Club, Position FROM attackers UNION SELECT Name, Number, Club, Position FROM defenders UNION SELECT Name, Number, Club, Position FROM goalkeepers ORDER BY Club ASC');
+$statement = $pdo->prepare('SELECT Name, Number, Club, Position FROM attackers UNION SELECT Name, Number, Club, Position FROM defenders UNION SELECT Name, Number, Club, Position FROM goalkeepers ORDER BY Name ASC');
 $statement->execute();
 
 $count = $statement->rowCount();
@@ -48,27 +48,5 @@ if($count > 0){
         echo "</tr>";
     }
 }
-
-
-
-// for($i = 0; $i < count($teams); $i++){
-//     for ($j = 0; $j < count($teams[$i]["players"]); $j++){
-//         $player = $teams[$i]["players"][$j]; 
-//         playerCard($player["name"], $teams[$i]["teamName"], $player["nationality"]);
-//     }
-// }
-
-
-// function playerCard($name, $team, $stat){
-//     echo 
-//     "<tr>
-//         <td>
-//             <a class='white' href='playerStats.php?player=$name'>$name</a>
-//         </td>
-//         <td>$team</td>
-//         <td>$stat</td>
-//     </tr>
-//     ";
-// }
 
 ?>
